@@ -1,3 +1,4 @@
+import NavigateLinks from "@/components/Navigate";
 import Link from "next/link";
 
 export default function Header() {
@@ -9,11 +10,11 @@ export default function Header() {
               <p className="text-sm leading-none font-extralight">Prof. de Física</p>
             </div>
             <nav className="flex items-center justify-between gap-3 h-full ">
-              <div className= "px-6 py-2 duration-200 hover:text-pri-450"><Link href='./'>Início</Link></div>
-              <div className= "px-6 py-2 duration-200 hover:text-pri-450 "><Link href='./'>Serviços</Link></div>
-              <div className= "px-6 py-2 duration-200 hover:text-pri-450 "><Link href='./'>Sobre</Link></div>
-              <div className= "px-6 py-2 duration-200 hover:text-pri-450 "><Link href='./'>Planos</Link></div>
-              <button className= "px-6 py-2 rounded-2xl duration-200 bg-pri-500 hover:bg-pri-450 hover:text-sec-450yar"><Link href='./'>Contato</Link></button>
+              <div className= "px-6 py-2 duration-200 hover:text-pri-450"><NavigateLinks label = 'Início' href="/"></NavigateLinks></div>
+              <div className= "px-6 py-2 duration-200 hover:text-pri-450 "><NavigateLinks label='Serviços' href="/"></NavigateLinks></div>
+              <div className= "px-6 py-2 duration-200 hover:text-pri-450 "><NavigateLinks label='Sobre' href="/"></NavigateLinks></div>
+              <div className= "px-6 py-2 duration-200 hover:text-pri-450 "><NavigateLinks label='Planos' href="/"></NavigateLinks></div>
+              <button className= "px-6 py-2 rounded-2xl duration-200 bg-pri-500 hover:bg-pri-450 hover:text-sec-450"><NavigateLinks label='Contato' href='./'></NavigateLinks></button>
             </nav>
           </div>
         </header>
