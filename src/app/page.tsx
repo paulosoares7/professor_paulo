@@ -1,5 +1,7 @@
 export default function Home() {
   return (
-    <h1>Hello World | 👋</h1>
+    <div className=" h-screen bg-pri-950 flex flex-col">
+      
+    </div>
   )
 }
