@@ -11,7 +11,7 @@ export default function GetStart() {
 
             <div className="flex flex-col items-start justify-center gap-2 px-6 w-[42rem] h-full">
               <h1 className=  " text-[50pt] leading-none font-bold">Descomplicando a Física</h1>
-              <p className=" text-[16pt] leading-none font-semibold mb-8">Aprenda de forma fácil e personalizada com um professor particular dedicado ao seu sucesso acadêmico.</p>
+              <p className=" text-[16pt] leading-none font-normal mb-8">Aprenda de forma fácil e personalizada com um professor particular dedicado ao seu sucesso acadêmico.</p>
               <Btn><NavigateLinks label='Comece Agora' href='./'></NavigateLinks></Btn>
             </div>
             <div className="flex items-center justify-between gap-3 h-full absolute right-12 top-2 z-50">
@@ -24,8 +24,8 @@ export default function GetStart() {
             <LinkedinLogo size={28} color="#8205f0" />
             <TwitterLogo size={28} color="#8205f0" />
             <GithubLogo size={28} color="#8205f0" />
-            <p className="text-pri-500 font-semibold"> | Manaus - Amazonas</p>
-            <button className="w-8 h-8 rounded-2xl absolute top-1/2 right-1/2"><CaretCircleDown size={32} color="#4b83f2" /></button>
+            <p className=" text-pri-500 font-semibold"> | Manaus - Amazonas</p>
+            <button className="w-12 h-12 rounded-full  border-none absolute top-1/2 right-1/2 animate-bounce text-ter-500 duration-200 hover:text-pri-500 "><CaretCircleDown size={48.5}  /></button>
           </div>
         </article>
     )
