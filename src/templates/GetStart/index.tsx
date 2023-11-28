@@ -19,7 +19,7 @@ export default function GetStart() {
 
             </div>
           </div>
-          <div className= " flex-1 bg-pri-50 px-12 py -8 flex items-center justify-start gap-2 relative">
+          <div className= " flex-1 bg-pri-50 px-12 py-10 flex items-center justify-start gap-2 relative">
             <InstagramLogo size={28} color="#8205f0" />
             <LinkedinLogo size={28} color="#8205f0" />
             <TwitterLogo size={28} color="#8205f0" />
