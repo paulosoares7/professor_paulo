@@ -1,3 +1,4 @@
+import AboutUs from "@/templates/AboutUs";
 import GetStart from "@/templates/GetStart";
 import Services from "@/templates/Services";
 import Header from "@/templates/header";
@@ -8,6 +9,7 @@ export default function Home() {
       <Header/>
       <GetStart/>
       <Services/>
+      <AboutUs/>
       
     </div>
   )
