@@ -20,10 +20,10 @@ export default function ContactUs({id}: ContactUsProps) {
 return (
   <article id={id} className=" bg-pri-950 py-8 px-12 text-pri-50 h-full p-0 font-sans ">
 
-    <div className=" flex items-center justify-between gap-2 w-full h-[32rem]">
-      <div className=" h-4/5 p-0"><Image className=' w-full h-full' src={callToActionImage} alt="CTA"/></div>
+    <div className=" flex items-center justify-around gap-2 w-full h-[32rem]">
+      <div className=" h-full p-0"><Image className=' w-full h-full' src={callToActionImage} alt="CTA"/></div>
       <div className="h-full w-[36rem] flex flex-col items-start gap-4 text-[12pt] ">
-        <div className=" w-full h-16 flex flex-col items-start justify-center">
+        <div className=" w-full h-16 flex flex-col items-start content-center">
           <h1 className="font-semibold leading-[1pt] mb-2">{name.toUpperCase()}</h1>
           <span className="font-medium text-[8pt]">{professor.toUpperCase()}</span>
         </div>
@@ -34,7 +34,7 @@ return (
         </div>
         
         <div className="flex flex-col gap-2 items-start justify-between h-52 ">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 mb-8">
             <ContactAchor href={`mailto:${email}`} label={'Enviar email'}  >
               <EnvelopeSimple size={28}/>
             </ContactAchor>
@@ -45,15 +45,15 @@ return (
               <WhatsappLogo size={28}/>
             </ContactAchor>
           </div>
-
           <Btn><NavigateLinks label='Agende Sua Aula Agora' href={`${whatsAppSchedulingLink}`}></NavigateLinks></Btn>
+          <div className= " w-full h-14 mt-2 py-2  flex items-center justify-start gap-2 relative text-pri-500">
+            <SocialMideaCTA/>
+          </div>
         </div>
 
       </div>
     </div>
-    <div className= " w-full h-14 mt-2 py-1  flex items-center justify-center gap-2 relative text-pri-500">
-      <SocialMideaCTA/>
-    </div>
+    
   </article>
   )
 }

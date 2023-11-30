@@ -36,7 +36,7 @@ export default function GetStart({id}: GetStartProps) {
               <SocialMideaCTA/>
               <p className=" text-pri-500 font-semibold"> | {user.city} - {user.province}</p>
             </div>          
-            <button className="w-12 h-12 rounded-full  border-none absolute top-1/4 left-[640px] animate-bounce text-ter-500 duration-200 hover:text-pri-500 " ><Link href='#services'><CaretCircleDown  size={48.5}  /></Link></button>
+            <button className="w-12 h-12 rounded-full  border-none absolute top-1/4 left-[690px] animate-bounce text-ter-500 duration-200 hover:text-pri-500 " ><Link href='#services'><CaretCircleDown  size={48.5}  /></Link></button>
           </div>
         </article>
     )
