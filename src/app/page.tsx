@@ -1,9 +1,9 @@
 import AboutUs from "@/templates/AboutUs";
 import ContactUs from "@/templates/ContactUs";
 import GetStart from "@/templates/GetStart";
+import Header from "@/templates/Header";
 import Princing from "@/templates/Princing";
 import Services from "@/templates/Services";
-import Header from "@/templates/Header";
 
 export default function Home() {
   return (
