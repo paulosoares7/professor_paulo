@@ -7,7 +7,7 @@ interface NavigateLinksProps {
 
 export default function NavigateLinks({href,label}: NavigateLinksProps) {
     return (
-      <Link href={`/${href}`}>{label}</Link>
+      <Link href={`${href}`}>{label}</Link>
     )
   }
   

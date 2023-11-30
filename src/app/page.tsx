@@ -3,17 +3,22 @@ import ContactUs from "@/templates/ContactUs";
 import GetStart from "@/templates/GetStart";
 import Princing from "@/templates/Princing";
 import Services from "@/templates/Services";
-import Header from "@/templates/header";
+import Header from "@/templates/Header";
 
 export default function Home() {
   return (
     <div className=" h-screen bg-pri-950 ">
       <Header/>
-      <GetStart/>
-      <Services/>
-      <AboutUs/>
-      <Princing/>
-      <ContactUs/>
+
+      <GetStart  id={'getstart'}/>
+
+      <Services id={'services'}/>
+
+      <AboutUs id={'about'}/>
+
+      <Princing id={'plans'}/>
+      
+      <ContactUs id={'contact'}/>
       
     </div>
   )

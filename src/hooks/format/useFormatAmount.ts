@@ -1,5 +1,5 @@
 
-export function useCurrencyFormat()  {
+export default function  useCurrencyFormat()  {
   
     function formatValue(value: number) {
         return value.toLocaleString('pt-BR', {
