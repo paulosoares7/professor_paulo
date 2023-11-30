@@ -1,7 +1,7 @@
 import DescriptionAboutUs from "@/components/DescriptionAboutUs";
 import useLandingPageInformation from "@/hooks/useLandingPageInformation";
 import Image from "next/image";
-import teste from "../../../public/assets/teste.png";
+import teste from "../../../../public/assets/teste.png";
 
 interface AboutUsProps {
   id: string

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { CaretCircleDown } from "@phosphor-icons/react/dist/ssr"
 
 import NavigateLinks from "@/components/Navigate";
-import guyImage from '../../../public/assets/GUY-STUDING.png'
+import guyImage from '../../../../public/assets/GUY-STUDING.png'
 import SocialMideaCTA from "@/components/SocialMideaCTA";
 import useTeacherInformation from "@/hooks/useTeacherInformation";
 import useLandingPageInformation from "@/hooks/useLandingPageInformation";

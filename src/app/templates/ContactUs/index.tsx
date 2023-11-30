@@ -1,5 +1,5 @@
 import Image from "next/image";
-import callToActionImage from "../../../public/assets/CTA.png";
+import callToActionImage from "../../../../public/assets/CTA.png";
 import { EnvelopeSimple, PhoneCall, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import Btn from "@/components/Button";
 import NavigateLinks from "@/components/Navigate";
