@@ -45,7 +45,7 @@ export default function PlansCards ({
 
 
     return !isRecommended ? (
-      <div key={id} className="w-60 h-96 rounded-lg bg-pri-500 py-4 px-3  font-medium flex flex-col items-start gap-2 text-[10pt] shadow-2whatsAppCTAxl">
+      <div key={id} className=" w-72 lg:w-60 h-[26rem] md:h-96 rounded-lg bg-pri-500 py-4 px-3  font-medium flex flex-col items-start gap-2 text-[10pt] shadow-2whatsAppCTAxl">
               
         <div className=" w-full  flex items-center justify-between text-[12pt]  font-light">
           <span className = 'font-semibold'>{plan}</span>
@@ -64,7 +64,7 @@ export default function PlansCards ({
              
         <div className=" w-full flex-1 flex flex-col items-center">
 
-          <ul className="p-0  w-full flex flex-col gap-1 text-[8pt]">
+          <ul className="p-0  w-full flex flex-col gap-1 text-[10pt] md:text-[8pt]">
             <li className='flex items-center justify-start gap-2'><span><ChalkboardTeacher size={20}/> </span><span>Número de aulas: {amountClass}</span></li>
             <li className='flex items-center justify-start gap-2'>
               <span><Timer size={20}  /></span>
@@ -91,7 +91,7 @@ export default function PlansCards ({
         </div>
       </div>
     ):(
-      <div key={id} className="w-60 h-96 rounded-lg bg-pri-950 py-4 px-3  font-medium flex flex-col items-start gap-2 text-[10pt] shadow-2xl">
+      <div key={id} className=" w-72 lg:w-60 h-[26rem] md:h-96 rounded-lg bg-pri-950 py-4 px-3  font-medium flex flex-col items-start gap-2 text-[10pt] shadow-2xl">
               
         <div className=" w-full  flex items-center justify-between text-[12pt]  font-light relative">
           <span className = 'font-semibold'>{plan}</span>
@@ -111,7 +111,7 @@ export default function PlansCards ({
              
         <div className=" w-full flex-1 flex flex-col items-center">
 
-        <ul className="p-0  w-full flex flex-col gap-1 text-[8pt]">
+        <ul className="p-0  w-full flex flex-col gap-1 text-[10pt] md:text-[8pt]">
             <li className='flex items-center justify-start gap-2'><span><ChalkboardTeacher size={20}/> </span><span>Número de aulas: {amountClass}</span></li>
             <li className='flex items-center justify-start gap-2'>
               <span><Timer size={20}  /></span>

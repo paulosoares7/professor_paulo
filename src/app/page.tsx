@@ -8,7 +8,7 @@ import Services from "./templates/Services";
 
 export default function Home() {
   return (
-    <div className=" h-screen bg-pri-950 ">
+    <div className=" h-screen w-screen min-w-[20rem] flex flex-col bg-pri-950 mx-auto  sm:max-sm:w-96 xl:max-w-screen-2xl">
       <Header/>
 
       <GetStart  id={'getstart'}/>
