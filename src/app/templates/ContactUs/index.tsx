@@ -42,11 +42,11 @@ return (
             <ContactAchor href={`tel:${numberPhone}`} label={'Telefone'}  >
               <PhoneCall size={28}/>
             </ContactAchor>
-            <ContactAchor href={`${whatsAppSchedulingLink}`} label={'Whatsapp'} >
+            <ContactAchor href={whatsAppSchedulingLink} label={'Whatsapp'} >
               <WhatsappLogo size={28}/>
             </ContactAchor>
           </div>
-          <Btn><NavigateLinks href={`${whatsAppSchedulingLink}`}></NavigateLinks>Agende Sua Aula Agora</Btn>
+          <NavigateLinks href={whatsAppSchedulingLink}><Btn>Agende Sua Aula Agora</Btn></NavigateLinks>
           <div className= " w-full h-14 mt-2 py-2  flex items-center justify-start gap-2 relative text-pri-500">
             <SocialMideaCTA/>
           </div>
@@ -70,7 +70,7 @@ return (
                 <h1 className="font-semibold">{name.toUpperCase()}</h1>
                 <span className="font-medium text-[8pt]">{professor.toUpperCase()}</span>
               </div>
-              <Btn><NavigateLinks  href={`${whatsAppSchedulingLink}`}>Agende Sua Aula Agora</NavigateLinks></Btn>
+              <NavigateLinks  href={whatsAppSchedulingLink}><Btn>Agende Sua Aula Agora</Btn></NavigateLinks>
             </div>
             <div className="flex flex-col  gap-2">
               <ContactAchor href={`mailto:${email}`} label={'Enviar email'}  >

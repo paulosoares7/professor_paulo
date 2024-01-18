@@ -1,7 +1,7 @@
 import DescriptionAboutUs from "@/components/DescriptionAboutUs";
 import useLandingPageInformation from "@/hooks/useLandingPageInformation";
 import Image from "next/image";
-import teste from "../../../../public/assets/teste.png";
+import teacher from "../../../../public/assets/prof.jpg";
 
 interface AboutUsProps {
   id: string
@@ -16,7 +16,7 @@ export default function AboutUs({id}: AboutUsProps) {
         </div>
         <div className="flex-1 flex  flex-col md:flex-row items-center gap-6">
           <div className=" w-[16rem] h-[24rem] md:w-[42rem] md:h-[28rem]  bg-ter-400 p-1">
-            <Image className='bg-sec-500 w-full h-full' width={1080} height={1920}  src={teste} alt="Professor"/></div>
+            <Image className='bg-sec-500 w-full h-full' width={1080} height={1920}  src={teacher} alt="Professor"/></div>
           <div className="h-full flex flex-col items-start gap-4 text-[12pt] ">
               
             {aboutUs.map((text) => (

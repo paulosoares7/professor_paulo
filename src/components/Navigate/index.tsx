@@ -8,7 +8,7 @@ interface NavigateLinksProps {
 
 export default function NavigateLinks({href, children}: NavigateLinksProps) {
     return (
-      <Link href={`${href}`}>{children}</Link>
+      <Link href={href}>{children}</Link>
     )
   }
   
